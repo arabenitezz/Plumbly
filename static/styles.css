@@ -1,0 +1,327 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4e94d1;
+    color: white;
+    padding: 1.25rem; /* 20px */
+}
+
+header h1 {
+    font-size: 2.5rem; /* 2.5 veces el tamaño base */
+    font-family: "Cherry Bomb One", cursive;
+    margin: 0;
+}
+
+header p {
+    margin: 0.3125rem 0 0; /* 5px */
+    font-size: 1.2rem; /* 19.2px */
+    font-family: "Poppins";
+}
+
+/* Navigation */
+nav {
+    background-color: #e5f9ff;
+    padding: 1.25rem;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0.625rem 0.9375rem;
+}
+
+/* Selector específico para los enlaces de navegación */
+.navbar li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Poppins";
+    padding: 0.625rem;
+    border-radius: 0.3125rem;
+    color: #2c4c93;
+    transition: background-color 0.3s;
+}
+
+.navbar li a.active {
+    background-color: #4e94d1;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+    background-color: #4e95d2;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 2.5rem 1.25rem; /* 40px 20px */
+    background-color: #ffffff;
+    margin: 1.25rem auto; /* 20px */
+    border-radius: 0.625rem; /* 10px */
+    max-width: 50rem; /* 800px */
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.1); /* 0 4px 10px */
+}
+
+.hero h1, .hero h2 {
+    font-size: 2rem; /* 32px */
+    font-family: "Poppins";
+    margin-bottom: 0.625rem; /* 10px */
+    color: #2c4c93;
+}
+
+
+.hero p {
+    font-size: 1rem; /* 16px */
+    font-family: "Poppins";
+    margin-bottom: 1.25rem; /* 20px */
+}
+
+.cta-buttons a {
+    text-decoration: none;
+    font-family: "Poppins";
+    color: white;
+    font-size: 1rem; /* 16px */
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    border-radius: 0.3125rem; /* 5px */
+    margin: 0 0.625rem; /* 0 10px */
+}
+
+.cta-primary {
+    background-color: #4e94d1;
+}
+
+.cta-secondary {
+    background-color: #777;
+}
+
+.cta-buttons a:hover {
+    opacity: 0.9;
+}
+
+/* Careers Section */
+.careers-section {
+    text-align: center;
+    font-family: "Poppins";
+    padding: 2.5rem 1.25rem; /* 40px 20px */
+    background-color: #f9f9f9;
+}
+
+.careers-section h2 {
+    font-size: 1.8rem; /* 28.8px */
+    font-family: "Poppins";
+    margin-bottom: 1.25rem; /* 20px */
+    color: #2c4c93;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr)); /* 250px */
+    gap: 1.25rem; /* 20px */
+    padding: 1.25rem; /* 20px */
+}
+
+.service-card {
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 0.625rem; /* Bordes redondeados de 10px */
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    padding: 2.5rem 1.25rem;/* Espaciado interno de 20px */
+    text-align: center; /* Centrar contenido */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+    max-width: 30rem;
+
+}
+
+.service-card img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    border-radius: 0.5rem; /* Bordes redondeados para la imagen */
+    margin-bottom: 1rem; /* Separación inferior de 16px */
+}
+
+.service-card h3 {
+    font-size: 1.2rem; /* Tamaño de fuente del título */
+    color: #2c4c93; /* Color del texto */
+    margin-bottom: 0.625rem; /* Margen inferior de 10px */
+}
+
+.service-card p {
+    font-size: 1rem; /* Tamaño de fuente del párrafo */
+    color: #666666; /* Color del texto */
+    margin: 0; /* Sin margen extra */
+}
+
+.service-card:hover {
+    transform: translateY(-0.3125rem); /* Eleva la tarjeta 5px al pasar el ratón */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); /* Aumenta la sombra al pasar el ratón */
+}
+
+
+/* Workers Grid */
+
+.maincontainerworkers {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2.5rem 1.25rem; /* 40px 20px */
+    background-color: #ffffff;
+    margin: 8rem auto; /* 20px */
+    border-radius: 0.625rem; /* 10px */
+    max-width: 60rem; /* 800px */
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.1); /* 0 4px 10px */
+}
+
+.workers-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem; /* 20px */
+    flex-wrap: wrap;
+    padding: 1.25rem; /* 20px */
+    max-height: 20rem; /* Altura máxima de la sección */
+    overflow-y: auto; /* Habilita desplazamiento vertical */
+    overflow-x: hidden; /* Oculta desplazamiento horizontal */
+    scrollbar-width: thin; /* Ancho de la barra de desplazamiento en navegadores compatibles */
+    scrollbar-color: #4e94d1 #f9f9f9; /* Color de la barra y fondo */
+}
+
+.workercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #b3d8f8;
+    padding: 1.25rem; /* 20px */
+    border-radius: 0.75rem; /* 12px */
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* 0 4px 8px */
+    width: 12.5rem; /* 200px */
+    min-height: 6.25rem; /* 100px */
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    word-wrap: break-word;
+}
+
+.workercontainer:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.workercontainer img {
+    width: 9.375rem; /* 150px */
+    height: 9.375rem; /* 150px */
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.9375rem; /* 15px */
+}
+
+.workercontainer p {
+    font-size: 1rem; /* 16px */
+    color: #4a4a4a;
+    margin: 0;
+}
+
+.maincontainerworkers h1 {
+    font-size: 2rem; /* 32px */
+    font-family: "Poppins";
+    margin-bottom: 0.625rem; /* 10px */
+    color: #2c4c93;
+}
+
+.maincontainerleaderborad {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    flex-direction: column;
+    padding: 2.5rem 1.25rem;
+    background-color: #e5f9ff;
+    margin: 8rem auto;
+    border-radius: 0.625rem;
+    max-width: 50rem; /* Reducido de 20rem para hacer el contenedor más angosto */
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+.maincontainerleaderborad h1 {
+    font-size: 2rem; /* 32px */
+    font-family: "Poppins";
+    margin-bottom: 0.625rem; /* 10px */
+    color: #2c4c93;
+}
+
+.maincontainerleaderborad img {
+    width: 6.25rem; /* Reducido de 9.375rem para ajustarse mejor al contenedor más angosto */
+    height: 6.25rem; /* Reducido para mantener la proporción */
+    object-fit: cover;
+
+}
+
+.leaderboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    padding: 1.25rem;
+    max-height: 10rem;
+}
+
+.leaderboard img {
+    width: 6.25rem; /* Reducido de 9.375rem para ajustarse mejor al contenedor más angosto */
+    height: 6.25rem; /* Reducido para mantener la proporción */
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.9375rem;
+}
+
+/* Selector específico para las medallas */
+.leaderboard img[src*="medal"] {
+    width: 4rem; 
+    height: 4rem;
+    object-fit: cover;
+    border-radius: 0;
+    margin-bottom: 0;
+
+}
+
+.leaderboard p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin: 0;
+    width: 100%;
+    word-wrap: break-word;
+    max-width: 6.25rem;
+    text-align: center;  /* Centrar el texto */
+    align-self: center;  /* Centrar verticalmente */
+}
+
+/* Footer */
+footer {
+    background-color: #4e94d1;
+    color: white;
+    text-align: center;
+    padding: 1.25rem 0.625rem; /* 20px 10px */
+    margin-top: 2.5rem; /* 40px */
+}
+
+footer p {
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 0.9rem; /* 14.4px */
+}
+
