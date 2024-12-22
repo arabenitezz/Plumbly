@@ -1,0 +1,37 @@
+# Changelog
+
+## [1.3.0] - 2024-12-22
+
+### Added
+- Implementado efecto de elevación en las tarjetas de trabajadores al hacer hover
+- Agregada sombra suave a las tarjetas de servicios para mejor profundidad visual
+- Incorporados iconos de herramientas en la sección hero
+- Nuevo sistema de medallas para el ranking de personajes
+
+### Changed
+- Actualizada la paleta de colores basada en feedback de usuarios:
+ - Color principal del header cambiado a #4e94d1 para mejor visibilidad
+ - Color de fondo del navbar actualizado a #e5f9ff para mejor contraste
+ - Links de navegación ahora usan #2c4c93 para mejor legibilidad
+- Mejorada la navegabilidad del sitio:
+ - Logo ahora redirecciona consistentemente a la página de inicio
+ - Navbar expandido para ocupar el ancho completo de la página
+ - Implementado estado activo más visible en los elementos del navbar
+
+### Fixed
+- Corregido el problema de overflow en la grid de trabajadores
+- Ajustado el tamaño y alineación de las imágenes en el leaderboard
+- Solucionado el espaciado inconsistente en las tarjetas de servicios
+- Mejorada la responsividad de las imágenes de perfil en workers.html
+
+### Feedback de Usuarios
+1. "El header no resaltaba lo suficiente" - Actualizado a un azul más vibrante (#4e94d1)
+2. "Era confuso que el logo no llevara al inicio" - Implementada redirección a index.html
+3. "El navbar se veía cortado en algunas pantallas" - Ajustado para ocupar 100% del ancho
+4. "Las tarjetas de trabajadores necesitaban más interacción" - Agregado efecto hover
+5. "Las medallas del ranking no se distinguían bien" - Mejorado el sistema de medallas
+
+### Style
+- Estandarizada la familia de fuentes a Poppins para mejor consistencia
+- Implementados bordes redondeados consistentes en toda la interfaz
+- Mejorado el sistema de espaciado usando unidades rem

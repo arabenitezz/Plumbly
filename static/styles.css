@@ -245,14 +245,14 @@ nav {
 
 .maincontainerleaderborad {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 2.5rem 1.25rem;
     background-color: #e5f9ff;
     margin: 8rem auto;
     border-radius: 0.625rem;
-    max-width: 50rem; /* Reducido de 20rem para hacer el contenedor más angosto */
+    max-width: 35rem; /* Reducido de 20rem para hacer el contenedor más angosto */
     box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.1);
 }
 
