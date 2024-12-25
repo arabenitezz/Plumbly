@@ -1,7 +1,9 @@
-# Plumby 🛠️
+# Interfaz Plumby 🛠️
 
 ## Descripción
-Plumby es una plataforma web que permite a los usuarios explorar y calificar diferentes profesionales y oficios. El proyecto se enfoca en crear una experiencia intuitiva y atractiva para conectar a usuarios con trabajadores calificados.
+Plumby es una interfaz web para un sitio que permite a los usuarios explorar y calificar diferentes profesionales y oficios. El proyecto se enfoca en crear una experiencia intuitiva y atractiva para conectar a usuarios con trabajadores calificados.
+
+Despliegue: https://arabenitezz.github.io/Plumbly/
 
 ## 🌟 Características Principales
 
